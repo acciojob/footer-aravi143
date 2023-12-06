@@ -1,1 +1,61 @@
 /* your code here */
+*{
+	margin:0%;
+	padding:0%;
+	color:white;
+	box-sizing:border-box;
+}
+footer{
+background:black;
+	width:100%;
+	height:250px;
+}
+.content{
+	padding:20px;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.logo_name{
+	font-size:20px
+}
+
+.media-icons>a{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:grey;
+	border-radius:50%;
+	text-align:center;
+	margin:0 10px 10px 0;
+	padding:10px;
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	white-space:wrap;
+	margin-top:15px;
+}
+.col{
+	margin:10px;
+	line-height:2;
+}
+.col>h3{
+	text-decoration:underline;
+	font-size:15px;
+}
+.col>ul{
+	list-style:none;
+	font-size:10px;
+}
+.bottom-details{
+	width:100%;
+	height:auto;
+	display:flex;
+	justify-content:space-between;
+	background:lightgray;
+	padding:10px
+}
